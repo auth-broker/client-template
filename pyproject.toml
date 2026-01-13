@@ -17,7 +17,10 @@ dev = [
 
 [project]
 authors = [{email = "mattcoul7@gmail.com", name = "Matt Coulter"}]
-dependencies = []
+dependencies = [
+  "pydantic>=2.11.9",
+  "httpx>=0.23.0,<0.29.0",
+]
 description = "A client package template."
 name = "ab-client-template"
 readme = "README.md"
